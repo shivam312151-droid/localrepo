@@ -1,0 +1,9 @@
+*{
+    color:black;
+background-color: teal;}
+.
+*::before,
+*::after {   
+    box-sizing: border-box;
+
+    }
