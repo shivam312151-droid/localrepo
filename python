@@ -1,1 +1,16 @@
+def greet(name):
+    print(f"Hello, {name}! Welcome to GitHub + VS Code 🚀")
+
+
+def add(a, b):
+    return a + b
+
+
+if __name__ == "__main__":
+    user_name = input("Enter your name: ")
+    greet(user_name)
+
+    x = int(input("Enter first number: "))
+    y = int(input("Enter second number: "))
+    print("Sum =", add(x, y))
 
